@@ -10,8 +10,6 @@ int main()
 	double tempature = -999;
 	double windChill = 0;
 	
-
-
 	while (!(wind >= 0 && wind <= 80))
 	{
 		cout << "please enter the wind speed. " << endl;
@@ -50,12 +48,8 @@ int main()
 	}
 	else 
 	{
-				
-		
 
-		windChill = 91.4 - (10.45 + 6.69 * sqrt(wind) - .447 * wind) * (91.4 - tempature) / 22;
-				
-				
+		windChill = 91.4 - (10.45 + 6.69 * sqrt(wind) - .447 * wind) * (91.4 - tempature) / 22;			
 	}
 
 	cout << "The wind chill will be " << windChill << " . " << endl;
