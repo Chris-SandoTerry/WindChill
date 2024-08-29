@@ -22,28 +22,17 @@ int main()
 	
 		cout << "Please enter the tempature. " << endl;
 		cin >> tempature;
-	
-	
 	}
 		
     if (wind <= 4)  
 	{
-
-
 		windChill = tempature;
-
-
-
 
 	}
 	else if (wind > 45)
 	{
 
 		windChill = 1.6 * tempature - 55.0;
-
-		
-
-
 
 	}
 	else 
